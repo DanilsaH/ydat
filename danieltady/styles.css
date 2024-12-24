@@ -1,0 +1,207 @@
+/* Estilos gerais */
+
+body {
+    font-family: "Poppins", serif;
+    margin: 0;
+    padding: 0;
+    background: beige;
+    text-decoration: none;
+    color: black;
+}
+
+
+
+/* Hero */
+.hero {
+    position: relative;
+    height: 95vh;
+    overflow: hidden;
+}
+
+.slider img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    animation: slide 2s infinite;
+}
+
+/* Serviços */
+.services {
+    text-align: center;
+    padding: 2rem;
+}
+
+.service-item {
+    display: flex;
+    justify-content: center;
+    gap: 5.5rem;
+    flex-wrap: wrap;
+}
+
+.card {
+    background: azure;
+    padding: 1.5rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(122, 119, 119, 0.1);
+    width: 250px;
+    text-align: center;
+}
+
+.whatsapp-btn {
+    display: inline-block;
+    margin-top: 1rem;
+    padding: 0.5rem 1rem;
+    background: #25d366;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+/* Seções */
+.work-mode,
+.curiosities,
+.work-with-us,
+.highlight-post {
+    padding: 2rem;
+    text-align: center;
+    color: black;
+    text-decoration: none;
+    background: azure;
+    margin: 1rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.btn {
+    display: inline-block;
+    margin-top: 1rem;
+    padding: 0.5rem 1.5rem;
+    background: #007bff;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 15px;
+}
+
+/* WhatsApp Rolagem */
+.whatsapp-scroll {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    width: 50px;
+    height: 50px;
+    background: #7f8c84;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.whatsapp-scroll img {
+    width: 90px;
+    height: 90px;
+}
+
+
+* {
+    margin: 0;
+}
+
+/* Footer styles */
+footer {
+    background-color: rgb(0, 0, 0);
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    padding-top: 1vh;
+    padding-bottom: 1vh;
+    padding-left: 1vh;
+    color: #fff;
+    /* padding: 1em; */
+    display: flex;
+    justify-content: space-between;
+    box-shadow: 0px 2px 10px 0px rgba(255, 255, 255, 0.5);
+    z-index: 1002;
+}
+
+footer .social-media ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+
+}
+
+footer .social-media ul a {
+    text-decoration: none;
+    /* remove underline from social-links */
+}
+
+ul.footerlist li {
+    display: inline;
+    list-style: none;
+}
+
+.socials-img {
+    /* social icons; image size, background */
+    height: 6vh;
+    opacity: 1;
+}
+
+
+
+.header {
+    position: fixed;
+    width: 100%;
+    padding-bottom: 15px;
+    height: 80px;
+    background-color: rgba(2, 2, 2, 0.7);
+    box-shadow: 0px 2px 10px 0px rgba(0, 0, 0, 0.5);
+    z-index: 1000;
+}
+
+.header ul {
+    text-align: center;
+}
+
+.header ul li {
+    list-style: none;
+    display: inline-block;
+    padding-top: 9px;
+    background-color: red;
+}
+
+.header ul li a {
+    display: inline-block;
+    text-decoration: none;
+    text-transform: uppercase;
+    font: size 20px;
+    font-family: 'Raleway', sans-serif;
+    letter-spacing: 2px;
+    font-weight: 1000;
+    padding: 25px;
+    color: rgb(252, 252, 252);
+    transition: all ease 0.5s;
+    border-radius: 20px;
+}
+
+.header ul li a:hover {
+    background-color: rgba(160, 159, 159, 0.5);
+}
+
+.logoText {
+    width: 200px;
+    margin-left: 1vw;
+    margin-top: 2.5vh;
+    position: fixed;
+    z-index: 1001;
+    background-color: red;
+}
+
+.logoIcon {
+    margin-top: 10px;
+    height: 100px;
+    margin-left: 90vw;
+    position: fixed;
+    z-index: 1001;
+    background-color: red;
+}

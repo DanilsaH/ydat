@@ -1,0 +1,198 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    margin-top: 19px;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #ffffff;
+    color: #333;
+}
+
+/* Header */
+.header {
+    background: linear-gradient(to right, #ffffff, #ffffff);
+    color: rgb(99, 85, 85);
+    text-align: center;
+    padding: 2rem;
+    box-shadow: 7px 00px 15px rgb(73, 63, 63);
+}
+
+.header h1 {
+    font-size: 2.5rem;
+}
+
+.header p {
+    font-size: 1.2rem;
+}
+
+/* Sections */
+.section {
+    padding: 2rem;
+    text-align: center;
+}
+
+.history {
+    background-color: #ffffff;
+}
+
+.clients {
+    background-color: #f0f8ff;
+}
+
+.today {
+    background-color: #98fb98;
+}
+
+.invite {
+    background: linear-gradient(to right, #9b6653, #8d473a);
+    color: white;
+}
+
+/* Cards */
+.card {
+    margin: 1rem auto;
+    padding: 1rem;
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    max-width: 300px;
+    transition: transform 0.3s;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+/* Button */
+.btn {
+    display: inline-block;
+    padding: 0.7rem 1.5rem;
+    background: rgb(111, 98, 98);
+    color: #ffffff;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 1rem;
+    font-weight: bold;
+    transition: background 0.3s, color 0.3s;
+}
+
+.btn:hover {
+    background: #ff6347;
+    color: white;
+}
+
+
+
+
+
+
+
+
+.section {
+    padding: 2rem;
+    text-align: center;
+}
+
+.packages {
+    background-color: #fff;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+    padding: 2rem;
+}
+
+.package {
+    background: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 1.5rem;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s;
+}
+
+.package:hover {
+    transform: translateY(-5px);
+}
+
+.package h3 {
+    font-size: 1.5rem;
+    color: #1e90ff;
+    margin-bottom: 1rem;
+}
+
+.package p {
+    font-size: 1rem;
+    color: #333;
+}
+
+/* Convite */
+.invite {
+    background: linear-gradient(to right, #ff7f50, #ff6347);
+    color: white;
+    padding: 2rem;
+    text-align: center;
+}
+
+.button {
+    display: inline-block;
+    padding: 0.7rem 1.5rem;
+    color: #000000;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background 0.3s, color 0.3s;
+}
+
+.botao:hover {
+    background: #000000;
+    color: white;
+}
+
+
+/* WhatsApp Rolagem */
+.whatsapp-scroll {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    border-bottom: 0.5cm solid white;
+}
+
+.whatsapp-scroll img {
+    width: 90px;
+    height: 90px;
+}
+
+/* Seções */
+.work-mode,
+.curiosities,
+.work-with-us,
+.highlight-post {
+    padding: 2rem;
+    text-align: center;
+    color: black;
+    text-decoration: none;
+    background: azure;
+    margin: 1rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    margin-bottom: 1rem;
+    transition: transform 0.3s;
+}
